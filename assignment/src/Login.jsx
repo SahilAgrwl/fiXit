@@ -44,9 +44,9 @@ const Login = () => {
 
   return (
     <div id='page2'>
-        <div id='header2'>
-     <h2>fiXit</h2>
-      <button onClick={handleLogin}>Login</button>
+        <div id='header2' style={{alignItems: 'center'}}>
+     <h2 style={{fontWeight: '900', fontSize: '30px'}}>fiXit</h2>
+      <button onClick={handleLogin} style={{color: 'rgb(0,0,0)'}}>Login</button>
       </div>
       <div id='text'>
       <div id='text2'>
@@ -65,7 +65,11 @@ const Login = () => {
     <span>l</span>
     <span>e</span>
     <span>s</span>
-      </div>   
+      </div> 
+      <span> &nbsp;</span>
+      <span> &nbsp;</span>
+      <span> &nbsp;</span>
+      <span> &nbsp;</span>  
       <span>E</span>
     <span>n</span>
     <span>a</span>
@@ -94,13 +98,16 @@ const Login = () => {
     <span>c</span>
     <span>e</span>
     <span>&nbsp; </span>
+    <span> &nbsp;</span>
+    <span> &nbsp;</span>
+    <span> &nbsp;</span>
+    <span> &nbsp;</span>
     <span>w</span>
     <span>i</span>
     <span>t</span>
     <span>h</span>
     <span> &nbsp;</span> 
-    <span> &nbsp;</span> 
-    <span> &nbsp;</span>
+    
     <span>A</span>
     <span>r</span>
     <span>t</span>

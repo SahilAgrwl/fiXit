@@ -1,27 +1,405 @@
-#brand{
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    margin-left: 50px;
-    margin-right: 520px;
+#page2{
+  background-color: black;
+  color: white;
 }
 
-#back{
-    background-color: white;
-    color: black;
+#header2{
+   justify-content: space-between;
+   align-items: center;
+   display: flex;
+ margin-left: 80px;
+ margin-right: 80px;
 }
 
-#search{
- margin-top: 30px;
- font-weight: bolder;
- display: inline-flex;
- margin-bottom: 30px;
-}
-#button{
-  background-color: blue;
-  margin-left: 40px;
+#text{
+   margin-left: 50px;
+   margin-right: 50px;
+   text-align: center;
+   
 }
 
+@keyframes gradientAnimation {
+   0% {
+     color: #333; /* Dark gray */
+   }
+   100% {
+     color: #adfcff; /* Light gray */
+   }
+ }
+
+#text1 {
+   margin-top: 50px;
+   margin-bottom: 50px;
+   font-size: 60px;
+   font-weight: 700;
+}
+
+#text2{
+   font-size: 70px;
+   font-weight: 800;
+   background: linear-gradient(90deg, #333, #363088); /* Gradient background */
+   background-clip: text; /* Clip text to the background */
+   -webkit-background-clip: text; /* For Safari */
+   color: transparent; /* Make text transparent initially */
+   display: inline-block; /* Prevent the background from filling the entire width */
+   margin-bottom: 200px;
+}
+
+  #text2 span {
+   display: inline-block;
+   animation: gradientAnimation 2s forwards;
+ }
+
+ #text2 span:nth-child(1) {
+   animation-delay: 0s; /* Delay for the first letter */
+ }
+
+ #text2 span:nth-child(2) {
+   animation-delay: 0.1s; /* Adjust the delay for the second letter */
+ }
+
+ #text2 span:nth-child(3) {
+   animation-delay: 0.2s; /* Adjust the delay for the third letter */
+ }
+
+ #text2 span:nth-child(4) {
+   animation-delay: 0.3s; /* Adjust the delay for the fourth letter */
+ }
+
+ #text2 span:nth-child(5) {
+   animation-delay: 0.4s; /* Adjust the delay for the fifth letter */
+ }
+
+ #text2 span:nth-child(6) {
+   animation-delay: 0.5s; /* Adjust the delay for the sixth letter */
+ }
+
+ #text2 span:nth-child(7) {
+   animation-delay: 0.6s; /* Adjust the delay for the seventh letter */
+ }
+
+ #text2 span:nth-child(8) {
+   animation-delay: 0.7s; /* Adjust the delay for the eighth letter */
+ }
+
+ #text2 span:nth-child(9) {
+   animation-delay: 0.8s; /* Adjust the delay for the ninth letter */
+ }
+
+ #text2 span:nth-child(10) {
+   animation-delay: 0.9s; /* Adjust the delay for the tenth letter */
+ }
+
+ #text2 span:nth-child(11) {
+   animation-delay: 1s; /* Adjust the delay for the eleventh letter */
+ }
+
+ #text2 span:nth-child(12) {
+   animation-delay: 1.1s; /* Adjust the delay for the twelfth letter */
+ }
+
+ #text2 span:nth-child(13) {
+   animation-delay: 1.2s; /* Adjust the delay for the thirteenth letter */
+ }
+
+ #text2 span:nth-child(14) {
+   animation-delay: 1.3s; /* Adjust the delay for the fourteenth letter */
+ }
+
+ #text2 span:nth-child(15) {
+   animation-delay: 1.4s; /* Adjust the delay for the fifteenth letter */
+ }
+
+ #text2 span:nth-child(16) {
+   animation-delay: 1.5s; /* Adjust the delay for the sixteenth letter */
+ }
+
+ #text2 span:nth-child(17) {
+   animation-delay: 1.6s; /* Adjust the delay for the seventeenth letter */
+ }
+
+ #text2 span:nth-child(18) {
+   animation-delay: 1.7s; /* Adjust the delay for the eighteenth letter */
+ }
+
+ #text2 span:nth-child(19) {
+   animation-delay: 1.8s; /* Adjust the delay for the nineteenth letter */
+ }
+
+ #text2 span:nth-child(20) {
+   animation-delay: 1.9s; /* Adjust the delay for the twentieth letter */
+ }
+
+ #text2 span:nth-child(21) {
+   animation-delay: 2s;
+ }
+ 
+ #text2 span:nth-child(22) {
+   animation-delay: 2.1s;
+ }
+ 
+ #text2 span:nth-child(23) {
+   animation-delay: 2.2s;
+ }
+ 
+ #text2 span:nth-child(24) {
+   animation-delay: 2.3s;
+ }
+ 
+ #text2 span:nth-child(25) {
+   animation-delay: 2.4s;
+ }
+ 
+ #text2 span:nth-child(26) {
+   animation-delay: 2.5s;
+ }
+ 
+ #text2 span:nth-child(27) {
+   animation-delay: 2.6s;
+ }
+ 
+ #text2 span:nth-child(28) {
+   animation-delay: 2.7s;
+ }
+ 
+ #text2 span:nth-child(29) {
+   animation-delay: 2.8s;
+ }
+ 
+ #text2 span:nth-child(30) {
+   animation-delay: 2.9s;
+ }
+ 
+ #text2 span:nth-child(31) {
+   animation-delay: 3s;
+ }
+ 
+ #text2 span:nth-child(32) {
+   animation-delay: 3.1s;
+ }
+ 
+ #text2 span:nth-child(33) {
+   animation-delay: 3.2s;
+ }
+ 
+ #text2 span:nth-child(34) {
+   animation-delay: 3.3s;
+ }
+ 
+ #text2 span:nth-child(35) {
+   animation-delay: 3.4s;
+ }
+ 
+ #text2 span:nth-child(36) {
+   animation-delay: 3.5s;
+ }
+ 
+ #text2 span:nth-child(37) {
+   animation-delay: 3.6s;
+ }
+ 
+ #text2 span:nth-child(38) {
+   animation-delay: 3.7s;
+ }
+ 
+ #text2 span:nth-child(39) {
+   animation-delay: 3.8s;
+ }
+ 
+ #text2 span:nth-child(40) {
+   animation-delay: 3.9s;
+ }
+ 
+ #text2 span:nth-child(41) {
+   animation-delay: 4s;
+ }
+ 
+ #text2 span:nth-child(42) {
+   animation-delay: 4.1s;
+ }
+ 
+ #text2 span:nth-child(43) {
+   animation-delay: 4.2s;
+ }
+ 
+ #text2 span:nth-child(44) {
+   animation-delay: 4.3s;
+ }
+ 
+ #text2 span:nth-child(45) {
+   animation-delay: 4.4s;
+ }
+ 
+ #text2 span:nth-child(46) {
+   animation-delay: 4.5s;
+ }
+ 
+ #text2 span:nth-child(47) {
+   animation-delay: 4.6s;
+ }
+ 
+ #text2 span:nth-child(48) {
+   animation-delay: 4.7s;
+ }
+ 
+ #text2 span:nth-child(49) {
+   animation-delay: 4.8s;
+ }
+ 
+ #text2 span:nth-child(50) {
+   animation-delay: 4.9s;
+ }
+ 
+ #text2 span:nth-child(51) {
+   animation-delay: 5s;
+ }
+ 
+ #text2 span:nth-child(52) {
+   animation-delay: 5.1s;
+ }
+ #text2 span:nth-child(53) {
+   animation-delay: 5.2s;
+ }
+ 
+ #text2 span:nth-child(54) {
+   animation-delay: 5.3s;
+ }
+ 
+ #text2 span:nth-child(55) {
+   animation-delay: 5.4s;
+ }
+ 
+ #text2 span:nth-child(56) {
+   animation-delay: 5.5s;
+ }
+ 
+ #text2 span:nth-child(57) {
+   animation-delay: 5.6s;
+ }
+ 
+ #text2 span:nth-child(58) {
+   animation-delay: 5.7s;
+ }
+ 
+ #text2 span:nth-child(59) {
+   animation-delay: 5.8s;
+ }
+ 
+ #text2 span:nth-child(60) {
+   animation-delay: 5.9s;
+ }
+ 
+ #text2 span:nth-child(61) {
+   animation-delay: 6s;
+ }
+ 
+ #text2 span:nth-child(62) {
+   animation-delay: 6.1s;
+ }
+ 
+ #text2 span:nth-child(63) {
+   animation-delay: 6.2s;
+ }
+ 
+ #text2 span:nth-child(64) {
+   animation-delay: 6.3s;
+ }
+ 
+ #text2 span:nth-child(65) {
+   animation-delay: 6.4s;
+ }
+
+ #text2 span:nth-child(66) {
+   animation-delay: 6.5s;
+ }
+ 
+ #text2 span:nth-child(67) {
+   animation-delay: 6.6s;
+ }
+ 
+ #text2 span:nth-child(68) {
+   animation-delay: 6.7s;
+ }
+ 
+ #text2 span:nth-child(69) {
+   animation-delay: 6.8s;
+ }
+ 
+ #text2 span:nth-child(70) {
+   animation-delay: 6.9s;
+ }
+ 
+ #text2 span:nth-child(71) {
+   animation-delay: 7s;
+ }
+ 
+ #text2 span:nth-child(72) {
+   animation-delay: 7.1s;
+ }
+ 
+ #text2 span:nth-child(73) {
+   animation-delay: 7.2s;
+ }
+ 
+ #text2 span:nth-child(74) {
+   animation-delay: 7.3s;
+ }
+ 
+ #text2 span:nth-child(75) {
+   animation-delay: 7.4s;
+ }
+ 
+ #text2 span:nth-child(76) {
+   animation-delay: 7.5s;
+ }
+ 
+ #text2 span:nth-child(77) {
+   animation-delay: 7.6s;
+ }
+ 
+ #text2 span:nth-child(78) {
+   animation-delay: 7.7s;
+ }
+ 
+ #text2 span:nth-child(79) {
+   animation-delay: 7.8s;
+ }
+ 
+ #text2 span:nth-child(80) {
+   animation-delay: 7.9s;
+ }
+ 
+ #text2 span:nth-child(81) {
+   animation-delay: 8s;
+ }
+ 
+ #text2 span:nth-child(82) {
+   animation-delay: 8.1s;
+ }
+ 
+ #text2 span:nth-child(83) {
+   animation-delay: 8.2s;
+ }
+ 
+ #text2 span:nth-child(84) {
+   animation-delay: 8.3s;
+ }
+ 
+ #text2 span:nth-child(85) {
+   animation-delay: 8.4s;
+ }
+ 
+ #text2 span:nth-child(86) {
+   animation-delay: 8.5s;
+ }
+ 
+ #text2 span:nth-child(87) {
+   animation-delay: 8.6s;
+ }
+ 
+ #text2 span:nth-child(88) {
+   animation-delay: 8.7s;
+ }
 
 #ans{
   font-size: x-large;
@@ -29,5 +407,373 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-
 }
+
+@font-face { 
+  font-family:Proxima Nova Normal;
+  src:url(./fonts/Proxima_Nova.bc23cd57.ttf);
+} 
+@font-face { 
+  font-family:Proxima Nova Light;
+  src:url(./fonts/Proxima_Nova_Light.1ce665b2.ttf);
+} 
+  body {  
+    line-height:inherit;
+    font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    color:hsl(var(--foreground));
+  }  
+body { 
+/* CSS Variables that may have been missed get put on body */ 
+    --tw-bg-opacity:  1;  
+    --tw-text-opacity:  1;  
+    --tw-border-opacity:  1;  
+    --tw-bg-opacity:  1;  
+    --tw-bg-opacity:  1;  
+    --tw-bg-opacity:  1;  
+} 
+
+* { 
+    box-sizing: border-box; 
+    border: 0 solid #e5e7eb;
+} 
+
+* { 
+    border-color: hsl(var(--border));
+} 
+
+.flex { 
+    display: flex;
+} 
+
+.h-full { 
+    height: 100%;
+} 
+
+.w-full { 
+    width: 100%;
+} 
+
+body { 
+    margin: 0; 
+    line-height: inherit;
+} 
+
+body { 
+    display: flex; 
+    height: 100vh; 
+    flex-direction: column; 
+    background-color: hsl(var(--background)); 
+    font-family: Proxima Nova Light,sans-serif; 
+    color: hsl(var(--foreground));
+} 
+
+html { 
+    line-height: 1.5; 
+    -webkit-text-size-adjust: 100%; 
+    -moz-tab-size: 4; 
+    -o-tab-size: 4; 
+    tab-size: 4; 
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; 
+    font-feature-settings: normal; 
+    font-variation-settings: normal;
+} 
+
+:root { 
+    --background: 0 0% 100%; 
+    --foreground: 222.2 84% 4.9%; 
+    --border: 214.3 31.8% 91.4%; 
+} 
+
+.overflow-hidden { 
+    overflow: hidden;
+} 
+
+.bg-\[\#fbfaf9\] { 
+    --tw-bg-opacity: 1; 
+    background-color: rgb(251 250 249/var(--tw-bg-opacity));
+} 
+
+@media (min-width: 1024px){ 
+  .lg\:w-9\/12 { 
+    width: 75%;
+  } 
+}     
+
+*,:after,:before { 
+    box-sizing: border-box; 
+    border: 0 solid #e5e7eb;
+} 
+
+:-webkit-scrollbar { 
+    width: 12px; 
+    background-color: #f5f5f5;
+} 
+
+:-webkit-scrollbar-thumb { 
+    border-radius: 10px; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); 
+    background-color: rgba(38,50,56,.84);
+} 
+
+:-webkit-scrollbar-track { 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); 
+    border-radius: 10px; 
+    background-color: #f5f5f5;
+} 
+
+.mx-auto { 
+    margin-left: auto; 
+    margin-right: auto;
+} 
+
+.w-\[95\%\] { 
+    width: 95%;
+} 
+
+.flex-col { 
+    flex-direction: column;
+} 
+
+.items-center { 
+    align-items: center;
+} 
+
+.gap-y-6 { 
+    row-gap: 1.5rem;
+} 
+
+.overflow-x-hidden { 
+    overflow-x: hidden;
+} 
+
+.py-6 { 
+    padding-top: 1.5rem; 
+    padding-bottom: 1.5rem;
+} 
+
+@media (min-width: 1024px){ 
+  .lg\:w-\[70\%\] { 
+    width: 70%;
+  } 
+}     
+
+.hidden { 
+    display: none;
+} 
+
+.justify-center { 
+    justify-content: center;
+} 
+
+.gap-x-4 { 
+    -moz-column-gap: 1rem; 
+    column-gap: 1rem;
+} 
+
+@media (min-width: 1024px){ 
+  .lg\:flex { 
+    display: flex;
+  } 
+}     
+
+img { 
+    display: block; 
+    vertical-align: middle;
+} 
+
+img { 
+    max-width: 100%; 
+    height: auto;
+} 
+
+h2 { 
+    font-size: inherit; 
+    font-weight: inherit;
+} 
+
+h2 { 
+    margin: 0;
+} 
+
+.font-proximaNormal { 
+    font-family: Proxima Nova Normal,sans-serif;
+} 
+
+.text-5xl { 
+    font-size: 3rem; 
+    line-height: 1;
+} 
+
+.font-medium { 
+    font-weight: 500;
+} 
+
+.text-main { 
+    --tw-text-opacity: 1; 
+    color: rgb(38 50 56/var(--tw-text-opacity));
+} 
+
+.justify-between { 
+    justify-content: space-between;
+} 
+
+.rounded-xl { 
+    border-radius: .75rem;
+} 
+
+.border { 
+    border-width: 1px;
+} 
+
+.border-main { 
+    --tw-border-opacity: 1; 
+    border-color: rgb(38 50 56/var(--tw-border-opacity));
+} 
+
+.bg-white { 
+    --tw-bg-opacity: 1; 
+    background-color: rgb(255 255 255/var(--tw-bg-opacity));
+} 
+
+.px-4 { 
+    padding-left: 1rem; 
+    padding-right: 1rem;
+} 
+
+.py-3 { 
+    padding-top: .75rem; 
+    padding-bottom: .75rem;
+} 
+
+.mb-7 { 
+    margin-bottom: 1.75rem;
+} 
+
+.mt-2 { 
+    margin-top: .5rem;
+} 
+
+.h-\[0\.8px\] { 
+    height: .8px;
+} 
+
+.shrink-0 { 
+    flex-shrink: 0;
+} 
+
+.bg-main { 
+    --tw-bg-opacity: 1; 
+    background-color: rgb(38 50 56/var(--tw-bg-opacity));
+} 
+
+p { 
+    margin: 0;
+} 
+
+input { 
+    font-family: inherit; 
+    font-feature-settings: inherit; 
+    font-variation-settings: inherit; 
+    font-size: 100%; 
+    font-weight: inherit; 
+    line-height: inherit; 
+    color: inherit; 
+    margin: 0; 
+    padding: 0;
+} 
+
+.basis-\[80\%\] { 
+    flex-basis: 80%;
+} 
+
+.border-none { 
+    border-style: none;
+} 
+
+.bg-transparent { 
+    background-color: transparent;
+} 
+
+.outline-none { 
+    outline: 2px solid transparent; 
+    outline-offset: 2px;
+} 
+
+button { 
+    font-family: inherit; 
+    font-feature-settings: inherit; 
+    font-variation-settings: inherit; 
+    font-size: 100%; 
+    font-weight: inherit; 
+    line-height: inherit; 
+    color: inherit; 
+    margin: 0; 
+    padding: 0;
+} 
+
+button { 
+    text-transform: none;
+} 
+
+button { 
+    cursor: pointer;
+} 
+
+[type="submit"],button { 
+    -webkit-appearance: button; 
+    background-color: transparent; 
+    background-image: none;
+} 
+
+.rounded-full { 
+    border-radius: 9999px;
+} 
+
+.bg-gray-50 { 
+    --tw-bg-opacity: 1; 
+    background-color: rgb(249 250 251/var(--tw-bg-opacity));
+} 
+
+.p-2 { 
+    padding: .5rem;
+} 
+
+.gap-x-2 { 
+    -moz-column-gap: .5rem; 
+    column-gap: .5rem;
+} 
+
+svg { 
+    display: block; 
+    vertical-align: middle;
+} 
+
+h3 { 
+    font-size: inherit; 
+    font-weight: inherit;
+} 
+
+h3 { 
+    margin: 0;
+} 
+
+.text-lg { 
+    font-size: 1.125rem; 
+    line-height: 1.75rem;
+} 
+
+.font-semibold { 
+    font-weight: 600;
+} 
+
+button { 
+    -webkit-appearance: button; 
+    background-color: transparent; 
+    background-image: none;
+} 
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-t3yz6.style-t3yz6 {  
+   color: transparent;  
+}  
